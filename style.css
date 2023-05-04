@@ -1,0 +1,230 @@
+@font-face {
+    font-family: "Cafe24Ssurround";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff") format("woff");
+}
+@font-face {
+    font-family: 'GoryeongStrawberry';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/GoryeongStrawberry.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RixYeoljeongdo_Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/RixYeoljeongdo_Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RixMomsBlanketR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/RixMomsBlanketR.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;}
+
+@font-face {
+        font-family: 'LOTTERIACHAB';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIACHAB.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+    }
+/* section - home */
+#home{
+width:100%; 
+height:650px; 
+background-image:url(images/6eql9ohy.png); 
+background-size:cover; 
+display:block;
+background-position:center center;
+}
+
+.container>h1 {
+    position:absolute; 
+    left:180px; bottom:320px; 
+    font-weight:800; 
+    font-size:100px; 
+    color:#fff6e6; 
+    line-height:0.9; 
+    letter-spacing:1px;
+    text-shadow: 4px 12px 6px #301b0c;
+    font-family: "Cafe24Ssurround";
+}
+
+body {
+    margin: 0%;
+    margin-top: -20px;
+    padding: 0%;
+}
+ /* section - header */
+#header{
+    position:fixed; 
+    left:0; 
+    top: 0;
+    width:100%; 
+    z-index:10000; 
+    font-family: 'RixMomsBlanketR';
+}
+.header.active{
+    top:10px;
+}
+#navmenu {
+    display: flex;
+    position:fixed;
+    width:100%; 
+    height:30px; 
+    background-color:rgba(255,255,255,0.5);
+    padding-right: 10px;
+    padding-top: 7px;
+    justify-content: center;
+    text-align: center;
+}
+.active{top:0;}
+#navmenu p {
+    margin: 0 70px;
+}
+/* #navmenu 요소에 포함된 a 태그 스타일 설정 */
+#navmenu a {
+    color: #000;
+}
+#navmenu a:link {
+    text-decoration: none;
+}
+#navmenu a:hover {
+    text-decoration:dotted;
+    color: blueviolet;
+}
+/* section - about me */
+#aboutme{
+    position:relative; width:100%; height:960px; top: 100px;
+}
+#aboutme>.skill-item1> img {
+    width: 500px;
+    position: absolute; top:135px; color:#425a73; letter-spacing:1px;
+    margin-left: 120px;
+    border-radius: 10%;
+    border: solid 11px #cb5800;
+}
+#aboutme>.content1-left {
+     float:left; height:960px; 
+}
+#aboutme>.content1-left>h2 {
+    position:absolute; top:85px; left:50%; margin-left:-570px; z-index:10; font-size:70px; font-weight:500; color:hsl(35, 100%, 70%);  letter-spacing:1px; font-family: 'LOTTERIACHAB';    text-shadow: 7px 8px 8px #5c3014;
+} /*about me 위치 */
+/*#aboutme>.content1-left>.about_bg {
+    position:absolute; left:0; top:100px; bottom:150px; width:700px; top:100px; height:570px; background-color:rgba(48, 89, 70, 0.3);
+}*//* 하늘 상자 */
+#aboutme>.content1-left>a {
+    position:absolute; top:400px; left:50%; margin-left:-540px; z-index:20; display:block; width:358px; height:460px; text-align: justify; 
+} /* 하늘 상자 위치*/
+
+#aboutme>.content1-right {
+    line-height: 90px;
+    position:absolute; top:175px; right:50%; margin-right:-600px; float:left; width:650px; height:430px;
+    font-family: "Cafe24Ssurround";
+}/* 서보은 전체 위치*/
+
+
+
+/* section - skills */
+#skill {
+    position:relative;
+    display: flex;
+    justify-content: center; /* flex 아이템을 메인축(가로) 방향으로 가운데 정렬 */
+    flex-wrap: wrap;
+    margin-top: 10px;
+    text-align: center; /* 박스 안의 텍스트 가로 정렬. 이미지에도 적용됨 */
+
+    z-index: -10000;
+}
+#container1 {
+    position:relative; 
+    width:1200px; 
+    height:960px; 
+    margin:0 auto;
+}
+#container1>h2 {
+    font-family: 'LOTTERIACHAB';
+    margin-bottom:20px; 
+    padding-top:10px; 
+    padding-bottom: 10px;
+    font-size:70px; 
+    font-weight:500; 
+    color:hsl(35, 100%, 70%);  
+    letter-spacing:1px; 
+    text-align:center;
+    text-shadow: 7px 8px 8px #5c3014;
+}
+.skill-item {
+    width: 300px; 
+    flex-basis: 300px; 
+    flex-grow: 0;
+    flex-shrink: 2;
+    /* .picture-item 클래스 요소도 flex 컨테이너로 설정 */
+    display: flex;
+    flex-direction: column; /* flex 메인축을 세로(column) 방향으로 설정 */
+    justify-content: end;
+    margin: 0 40px;
+
+}
+.skill-item img {
+    width: 100%;
+    border-radius: 50%;
+    border: solid 11px #ffd793;
+}
+.skill-item p {
+    font-size: 25px;
+    margin-top: 40px;
+    font-family: "Cafe24Ssurround";
+}
+
+
+
+
+/* section - portfolio */
+#Portfolio {
+    position:relative; 
+    width:1200px; 
+    height:960px; 
+    margin:0 auto;
+}
+#container2 {
+    position:relative; 
+    width:1200px; 
+    height:960px; 
+    margin:0 auto;
+}
+#container2>h2 {
+    font-family: 'LOTTERIACHAB';
+    margin-top: -100px;
+    margin-bottom:20px; 
+    padding-top:40px; 
+    padding-bottom: 10px;
+    font-size:70px; 
+    font-weight:500; 
+    color:hsl(35, 100%, 70%); 
+    letter-spacing:1px; 
+    text-align:center;
+    text-shadow: 7px 8px 8px #5c3014;
+}
+
+
+
+
+.skill-item2 {
+ 
+    flex-basis: 250px; 
+    flex-grow: 0;
+    flex-shrink: 2;
+    /* .picture-item 클래스 요소도 flex 컨테이너로 설정 */
+    display: flex;
+    flex-direction: column; /* flex 메인축을 세로(column) 방향으로 설정 */
+    justify-content: end;
+
+    margin: 10px 40px;
+
+}
+.skill-item2 img {
+    width: 100%;
+    border-radius: 5%;
+    border: solid 11px #8f5214;
+}
+
+
