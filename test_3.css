@@ -63,6 +63,7 @@ body {
     font-family: "Cafe24Ssurround";
 }
 .container>h3 {
+
     position:absolute; 
     left:1290px; 
     bottom:383px; 
@@ -74,6 +75,7 @@ body {
     font-family: "Cafe24Ssurround";
 }
 #button.content>h1 {
+    padding: 50px;
     position:absolute; 
     left: 600px;
     bottom:-30px; 
