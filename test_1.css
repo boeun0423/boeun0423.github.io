@@ -5,11 +5,12 @@ height:650px;
 background-image:url(images/6eql9ohy.png); 
 background-size:cover; 
 display:block;
-background-position:center center;
+background-position:center;
 }
 body {
     margin: 0%;
     padding: 0%;
+    
 }
 .container>h1 {
     position:absolute; 
@@ -64,11 +65,14 @@ body {
     width:1200px; 
     height:960px; 
     margin:0 auto;
+    text-align: center;
+
 }
 .skill-item {
-    margin: 10px 20px;
+    margin: 10px 10px;
 }
 #skill {
+    top: 100px;
     position:relative;
     display: flex;
     justify-content: center;
@@ -90,14 +94,14 @@ body {
 /* section - connect */
 #Connect {
     position: relative;
-    line-height: 150%;
+    line-height: 100%;
 }
 .container2> h1 {
     text-align: center;
     font-weight:80; 
     font-size:50px; 
     color:#fff6e6; 
-    margin-top: 90px;
+    margin-top: 150px;
     /*letter-spacing:1px;
     text-shadow: 4px 12px 6px #301b0c;*/
     font-family: "Cafe24Ssurround";
@@ -111,5 +115,5 @@ body {
     line-height: 2;
     /*text-shadow: 4px 12px 6px #301b0c;*/
     font-family: "Cafe24Ssurround";
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
