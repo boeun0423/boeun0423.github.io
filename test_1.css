@@ -1,16 +1,19 @@
 /* section - home */
 #Home{
+position: relative;
 width:100%; 
 height:650px; 
 background-image:url(images/6eql9ohy.png); 
-background-size:cover; 
-display:block;
-background-position:center;
+background-size:cover
+
+
 }
 body {
+    position: relative;
     margin: 0%;
-    padding: 0%;
-    
+    /*width: 1519px;
+    height: 960px;*/
+
 }
 .container>h1 {
     position:absolute; 
@@ -65,6 +68,8 @@ body {
     width:1200px; 
     height:960px; 
     margin:0 auto;
+    font-size: 40px;
+
     text-align: center;
 
 }
@@ -72,7 +77,7 @@ body {
     margin: 10px 10px;
 }
 #skill {
-    top: 100px;
+    top: 50px;
     position:relative;
     display: flex;
     justify-content: center;
@@ -100,7 +105,7 @@ body {
     text-align: center;
     font-weight:80; 
     font-size:50px; 
-    color:#fff6e6; 
+    color:#ae9f85; 
     margin-top: 150px;
     /*letter-spacing:1px;
     text-shadow: 4px 12px 6px #301b0c;*/
@@ -110,10 +115,19 @@ body {
     text-align: center;
     font-weight:80; 
     font-size:20px; 
-    color:#fff6e6; 
+    color:#ae9f85; 
     letter-spacing:1px;
     line-height: 2;
     /*text-shadow: 4px 12px 6px #301b0c;*/
     font-family: "Cafe24Ssurround";
     padding-bottom: 30px;
+}
+@media screen and (max-width: 1201px) {
+	body {
+		background-color: lightgreen;
+        position: relative;
+        margin: 0%;
+        width: 1519px;
+        height: 960px;
+	}
 }
