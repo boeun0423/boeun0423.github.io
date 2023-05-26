@@ -122,7 +122,7 @@ body {
     font-family: "Cafe24Ssurround";
     padding-bottom: 30px;
 }
-@media screen and (max-width: 1201px) {
+/*@media screen and (max-width: 1201px) {
 	body {
 		background-color: lightgreen;
         position: relative;
@@ -130,4 +130,8 @@ body {
         width: 1519px;
         height: 960px;
 	}
+}*/
+
+@media screen and (min-width: 450px) {
+    #HTML {display:none;}
 }
