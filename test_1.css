@@ -94,8 +94,6 @@ body {
     transform: scale(1.1);
 }*/
 #pictures {
-    justify-content: center;
-    align-items: center;
     position: relative;
     width: 100%;
     padding-top: 160px;
@@ -109,8 +107,6 @@ body {
 }
 .skill-item > img {
     width: 100%;
-    justify-content: center;
-    align-items: center;
     border-radius: 10px;
 }
 .skill-overlay{
