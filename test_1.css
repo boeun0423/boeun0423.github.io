@@ -14,8 +14,6 @@ background-size:cover
 body {
     position: relative;
     margin: 0%;
-    /*width: 1519px;
-    height: 960px;*/
 
 }
 .container>h1 {
@@ -122,12 +120,13 @@ body {
 #Connect {
     position: relative;
     line-height: 100%;
+    margin-top: 90px;
 }
 .container2> h1 {
     text-align: center;
     font-size:50px; 
     color:#c69595; 
-    margin-top: 10px;
+    margin-top: 30px;
 }
 .container2> p {
     text-align: center;
@@ -135,9 +134,10 @@ body {
     color:#b47a7a; 
     letter-spacing:1px;
     line-height: 2;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
+/* moving-object */
 #moving-object {
     z-index: 20000;
     position: absolute;
@@ -162,11 +162,11 @@ body {
 @keyframes obj-path {
     0% {
         top: 50px;
-        left: 50px;
+        left: 500px;
     }
     25% {
         top: 30vh;
-        left: 90vw;
+        left: 10vw;
     }
     50% {
         top: 80vh;
@@ -177,11 +177,11 @@ body {
     }
     75% {
         top: 50vh;
-        left: 80vw;
+        left: 90vw;
     }
     100% {
-        top: 70vh;
-        left: 50px;
+        top: 50vh;
+        left: 90px;
     }
 }
 @keyframes obj-rotate {
@@ -191,8 +191,7 @@ body {
 }
 
 
-
-
+/* mobile */
 
 @media screen and (max-width: 450px) {
     #HTML {display:none;}
