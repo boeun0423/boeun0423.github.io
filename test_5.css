@@ -40,7 +40,7 @@ body {
 #pictures {
     position: relative;
     width: 100%;
-    padding-top: 145px;
+    padding-top: 130px;
 }
 #container1 {
     text-align: center;
@@ -49,7 +49,7 @@ body {
 }
 .skill-item {
     position: relative;
-    width: 70%;     
+    width: 62%;     
     margin: 0 auto;
     text-align: center;
 }
