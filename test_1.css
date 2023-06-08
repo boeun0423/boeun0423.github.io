@@ -90,7 +90,7 @@ body {
     top: 0;
     left: 0;
     width: 40%;
-    height: 644.5px;
+    height: 100%;
     background-color:rgb(255, 206, 206);
     opacity: 0.0;
     display: flex;
@@ -235,7 +235,7 @@ body {
     color: #b47a7a;
 }
 .skill-overlay{
-    height: 165.5px;
+    height: 100%;
 }
 /* section - connect */
 #Connect {
@@ -350,7 +350,7 @@ body {
     color: #b47a7a;
 }
 .skill-overlay{
-    height: 165.5px;
+    height: 100%;
 }
 /* section - connect */
 #Connect {
