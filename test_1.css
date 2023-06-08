@@ -273,7 +273,7 @@ body {
 @keyframes obj-path {
     0% {
         top: 50px;
-        left: 30px;
+        left: 25px;
     }
     25% {
         top: 30vh;
