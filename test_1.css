@@ -189,18 +189,7 @@ body {
       transform: rotate(360deg);
     }
 }
-/*section - video */
-#VideoContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 50px auto 0;
-}
 
-#VideoContainer {
-    width: 100%;
-    height: auto;
-}
 /* pad */
 
 @media screen and (max-width: 860px) {
