@@ -1,7 +1,6 @@
 body {
     position: relative;
     margin: 0%;
-
 }
 /* section - header */
 #header {
@@ -43,11 +42,6 @@ body {
     width: 100%;
     padding-top: 130px;
 }
-#container1 {
-    text-align: center;
-    font-size: 45px;
-    color: #b47a7a;
-}
 .skill-item {
     position: relative;
     width: 62%;     
@@ -68,7 +62,7 @@ body {
     font-size:20px; 
     letter-spacing:1px;
     line-height: 2;
-    color: #b47a7a;
+    color: #8f8f8f;
     margin-bottom: 10px;
 }
 
