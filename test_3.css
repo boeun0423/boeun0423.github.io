@@ -107,3 +107,75 @@ html {
     line-height: 2;
     margin-bottom: 10px;
 }
+
+/* mobile */
+
+@media screen and (max-width:450px) {
+    #HTML {
+        display: none;
+    }
+/* section - header */
+#navmenu {
+    display: flex;
+    position:fixed;
+    width:100%; 
+    height:27px; 
+    background-color:rgba(255,255,255,0.5);
+    padding-top: 10px;
+    justify-content: center;
+    text-align: center;
+    font-size: 13px;
+}
+#navmenu p {
+    margin: 0 15px;
+}
+
+/* section - video */
+ #Video {
+    margin-top: 70px;
+    justify-content: center;
+     text-align: center;
+}
+.VideoContainer>video{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.VideoContainer source {
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    }
+.container{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.container>h1 {
+    margin: 0;
+    position: relative;
+    font-size: 15px;
+    color: #5a4623;
+    letter-spacing: 1px;
+    /*text-shadow: 4px 9px 6px #2c1818c9;*/
+    }
+
+/* section - connect */
+#Connect {
+    position: relative;
+    line-height: 100%;
+}
+.container2> h1 {
+    text-align: center;
+    font-size:30px; 
+    margin-top: 5px;
+}
+.container2> p {
+    text-align: center;
+    font-size:10px; 
+    letter-spacing:1px;
+    line-height: 2;
+}
+}
+

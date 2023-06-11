@@ -40,3 +40,42 @@ html {
     text-decoration:dotted;
     color: rgb(255, 199, 199);
 }
+/* mobile */
+
+@media screen and (max-width:450px) {
+    #HTML {
+        display: none;
+    }
+/* section - header */
+#navmenu {
+    display: flex;
+    position:fixed;
+    width:100%; 
+    height:27px; 
+    background-color:rgba(255,255,255,0.5);
+    padding-top: 10px;
+    justify-content: center;
+    text-align: center;
+    font-size: 13px;
+}
+#navmenu p {
+    margin: 0 15px;
+}
+
+/* section - connect */
+#Connect {
+    position: relative;
+    line-height: 100%;
+}
+.container2> h1 {
+    text-align: center;
+    font-size:30px; 
+    margin-top: 5px;
+}
+.container2> p {
+    text-align: center;
+    font-size:10px; 
+    letter-spacing:1px;
+    line-height: 2;
+}
+}
