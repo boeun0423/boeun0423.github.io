@@ -2,6 +2,9 @@ body {
     position: relative;
     margin: 0%;
 }
+html {
+    scroll-behavior: smooth; /* 스크롤 시 부드럽게 이동 */
+}
 /* section - header */
 #header {
     position:fixed; 
