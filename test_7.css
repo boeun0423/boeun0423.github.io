@@ -79,7 +79,12 @@ html {
     font-size:20px; 
     letter-spacing:1px;
     line-height: 2;
-    background-color: linear-gradient(to right,  #e18181, #e8d587, #8f84e6);
+    font-size: 50px;
+    font-weight: bolder;
+    background-image: linear-gradient(to right,  hsl(0, 100%, 50%), #f8ff9c, hsl(265, 100%, 50%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
     margin-bottom: 10px;
 }
 
@@ -108,8 +113,12 @@ html {
 }
 .container2> p {
     text-align: center;
-    font-size:10px; 
-    color: linear-gradient(to right,  #e18181, #e8d587, #8f84e6); 
+    font-size:5px; 
+    font-weight: bolder;
+    background-image: linear-gradient(to right,  hsl(0, 100%, 50%), #f8ff9c, hsl(265, 100%, 50%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
     margin-top: 5px;
 }
 }
