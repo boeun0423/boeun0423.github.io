@@ -79,7 +79,7 @@ html {
     font-size:20px; 
     letter-spacing:1px;
     line-height: 2;
-    color: #8f8f8f;
+    background-image: linear-gradient(to right,  #e18181, #e8d587, #8f84e6);
     margin-bottom: 10px;
 }
 
@@ -109,7 +109,7 @@ html {
 .container2> p {
     text-align: center;
     font-size:10px; 
-    color:#c69595; 
+    background-image: linear-gradient(to right,  #e18181, #e8d587, #8f84e6); 
     margin-top: 5px;
 }
 }
