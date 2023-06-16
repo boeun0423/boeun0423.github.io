@@ -48,6 +48,12 @@ html {
     text-decoration:dotted;
     color: rgb(255, 199, 199);
 }
+/* connect */
+#Connect{
+    margin-top: 100px;
+    text-align: center;
+font-size: 100px;
+}
 /* mobile */
 
 @media screen and (max-width:876px) {
@@ -84,6 +90,14 @@ html {
     font-size:10px; 
     letter-spacing:1px;
     line-height: 2;
+}
+/* connect */
+#Connect{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 120px;
+    letter-spacing: 4px;
+    line-height: 170px;
 }
 }
 
@@ -124,5 +138,13 @@ html {
     font-size:10px; 
     letter-spacing:1px;
     line-height: 2;
+}
+/* connect */
+#Connect{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 4px;
+    line-height: 90px;
 }
 }
